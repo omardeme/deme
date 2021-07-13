@@ -1,0 +1,55 @@
+<project xmlns=http://maven.apache.org/POM/4.0.0
+  xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance
+  xsi:schemaLocation= http://maven.apache.org/POM/4.0.0 
+  http://maven.apache.org/maven-v4_0_0.xsd>
+  <modelVersion>4.0.0</modelVersion>
+  [...]
+  <name>Nom du projet</name>
+  <description>Description du projet</description>
+  <inceptionYear>2012</inceptionYear>
+  <organization>
+    <name>Nom de l'entreprise</name>
+    <url>Url de l'entreprise</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Nom de la licence</name>
+      <url>L'url de la licence</url>
+      <comments>Commentaire concernant la licence</comments>
+      <distribution>Politique de redistribution</distribution>
+    </license>
+  </licenses>
+  <url>Url du projet</url>
+ 
+  <version>1.3.0-1.2-MAVEN2TEST</version>
+  
+  <developers>
+    <developer>
+      <name>Jean-Michel Doudoux</name>
+      <id>jmdoudoux</id>
+      <email>jean-michel.doudoux@wanadoo.fr</email>
+      <timezone>+1</timezone>
+      <organization>Mon entreprise</organization>
+      <organizationUrl>http://www.jmdoudoux.fr/</organizationUrl>
+      <roles>
+        <role>Tech lead</role>
+        <role>développeur</role>
+      </roles>
+    </developer>
+    ...
+  </developers>
+  <contributors>
+    <contributor>
+      <name>John Doe</name>
+      <email>john_doe@inconnu.fr</email>
+      <timezone>+1</timezone>
+      <organization>Autre entreprise</organization>
+      <organizationUrl>http://www.autreentreprise.fr/</organizationUrl>
+      <roles>
+        <role>Développeur</role>
+      </roles>
+    </contributor>
+    [...]
+  </contributors>
+...
+</project>
